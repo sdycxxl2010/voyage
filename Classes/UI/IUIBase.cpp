@@ -73,4 +73,9 @@ void IUIBase::LoadCsb()
 	m_pRootWidget = pWidgetRoot;
 
 	addChild(m_pRootNode);*/
+
+}
+void IUIBase::addNewCsb()
+{
+
 }
