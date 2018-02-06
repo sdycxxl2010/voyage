@@ -5,7 +5,7 @@
 #include "MapWalkConfigManager.h"
 #include "tinyxml2/tinyxml2.h"
 
-
+#define isButton(_tt) (name.find(#_tt) == 0)
 LayerHudControl::LayerHudControl( )
 {
 	m_pLayerMapWalk = 0 ; 
