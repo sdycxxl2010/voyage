@@ -38,8 +38,9 @@ bool LayerMapWalk::init( )
 	m_Mode = OperationMode::PutVertex ; 
 
 	// 背景图
-	//auto pSpr = Sprite::create( "map_bg.png" ) ; 
-	//this->addChild( pSpr , -2 ) ; 
+	/*auto pSpr = Sprite::create( "map_bg.png" ) ; 
+	pSpr->setAnchorPoint(Vec2(0,0));
+	this->addChild( pSpr , -2 ) ; */
 
 	// 初始化编辑数据
 	auto pSprEdgeEditLine = Sprite::create( "line.png" )  ;
@@ -131,7 +132,7 @@ bool LayerMapWalk::onTouchBegan( Touch *touch , Event *unused_event )
 	{
 		pos = this->convertToNodeSpaceAR( pos ) ;
 		auto pMwv = HitMapWalkVertex( pos ) ;
-		if ( pMwv )
+		if ( pMwv )//点击的是圆圈
 		{
 			// 目标点
 			auto pVertexTarget = pMwv->GetGraphVertex( ) ; 
