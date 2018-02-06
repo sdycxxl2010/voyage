@@ -74,3 +74,20 @@ void IUIBase::LoadCsb()
 
 	addChild(m_pRootNode);*/
 }
+void IUBase::LoadNewcsd()
+{
+	SDUIList *_ui = SDUIList::GetElement((int)uiNameType);
+	assert(_ui != nullptr);
+	uiPOPType = (UI_POPTYE)_ui->getIsPop();
+
+	string fullPath("cocosstudio/");
+	fullPath.append(_ui->getUIResPath());
+
+	Node* wgRoot = CSLoader::createNode(fullPath);
+
+	Widget* pWidgetRoot = dynamic_cast<Widget*>(wgRoot->getChildren().at(0));
+	m_pRootNode = wgRoot;
+	m_pRootWidget = pWidgetRoot;
+
+	addChild(m_pRootNode);
+}
