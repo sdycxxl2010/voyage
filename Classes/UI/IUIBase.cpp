@@ -59,7 +59,7 @@ void IUIBase::OnClean()
 
 void IUIBase::LoadCsb()
 {
-	SDUIList *_ui = SDUIList::GetElement((int)uiNameType);
+	/*SDUIList *_ui = SDUIList::GetElement((int)uiNameType);
 	assert(_ui != nullptr);
 	uiPOPType = (UI_POPTYE)_ui->getIsPop();
 
@@ -72,5 +72,5 @@ void IUIBase::LoadCsb()
 	m_pRootNode = wgRoot;
 	m_pRootWidget = pWidgetRoot;
 
-	addChild(m_pRootNode);
+	addChild(m_pRootNode);*/
 }
