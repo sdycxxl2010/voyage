@@ -143,6 +143,15 @@ bool LayerHudControl::init( )
 		MapWalkConfigManager::Load( "config/map_walk.xml" , m_pLayerMapWalk ) ;
 	} ;
 	pBtn->addTouchEventListener( fn ) ;
+	//Çå³ı
+	pBtn = (Button*)Helper::seekWidgetByName(pUI, "btnClearGraph");
+	fn = [&](Ref*, Widget::TouchEventType e)
+	{
+		if (e != Widget::TouchEventType::ENDED)	return;
+
+		log("+++++++++++click button clear");
+	};
+	pBtn->addTouchEventListener(fn);
 
 	return true ; 
 }
