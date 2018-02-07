@@ -97,6 +97,7 @@ public :
 /*
 	图顶点的边
 	有向边
+	每条边都会被记录在三个集合里：顶点1的出边组合，顶点2的出边组合，边所有的集合。增加或者删除一条边时注意这三部分
 */
 class Edge
 {
@@ -159,7 +160,7 @@ public :
 	// 添加一个顶点
 	void AddVertex( Vertex* pV ) ;
 
-	// 删除一个顶点
+	// 删除一个顶点（还要删除出边和入边）
 	void DeleleVertex( const string& VertexName ) ;
 
 
