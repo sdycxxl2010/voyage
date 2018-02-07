@@ -64,7 +64,7 @@ bool LayerHudControl::init( )
 		if ( e != Widget::TouchEventType::ENDED )	return ;
 
 		m_pLayerMapWalk->m_Mode = LayerMapWalk::OperationMode::DragContent ;
-		m_pTxtInfo->setString( "当前模式:拖曳场景" ) ;
+		//m_pTxtInfo->setString( "当前模式:拖曳场景" ) ;
 		fnSetInfo( ( Widget* ) pSender ) ; 
 
 	} ; 
@@ -77,7 +77,7 @@ bool LayerHudControl::init( )
 		if ( e != Widget::TouchEventType::ENDED )	return ;
 
 		m_pLayerMapWalk->m_Mode = LayerMapWalk::OperationMode::PutVertex ;
-		m_pTxtInfo->setString( "当前模式:编辑图" ) ;
+		
 		fnSetInfo( ( Widget* ) pSender ) ;
 	} ;
 	pBtn->addTouchEventListener( fn ) ;
@@ -136,20 +136,20 @@ bool LayerHudControl::init( )
 	
 	
 	pBtn = ( Button* ) Helper::seekWidgetByName( pUI , "btnLoad" ) ;
-	fn = [ &]( Ref* , Widget::TouchEventType e )
+	fn = [&](Ref*pSender, Widget::TouchEventType e)
 	{
 		if ( e != Widget::TouchEventType::ENDED )	return ;
 
 		MapWalkConfigManager::Load( "config/map_walk.xml" , m_pLayerMapWalk ) ;
+		fnSetInfo((Widget*)pSender);
 	} ;
 	pBtn->addTouchEventListener( fn ) ;
 	//清除
 	pBtn = (Button*)Helper::seekWidgetByName(pUI, "btnClearGraph");
-	fn = [&](Ref*, Widget::TouchEventType e)
+	fn = [&](Ref*pSender, Widget::TouchEventType e)
 	{
 		if (e != Widget::TouchEventType::ENDED)	return;
-
-		log("+++++++++++click button clear");
+		fnSetInfo((Widget*)pSender);
 	};
 	pBtn->addTouchEventListener(fn);
 

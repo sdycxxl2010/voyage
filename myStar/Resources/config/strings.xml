@@ -3,4 +3,6 @@
     <string Key="btnEditGraph" Value="当前模式：编辑图" />
     <string Key="btnPositionRole" Value="当前模式：放置角色" />
     <string Key="btnWalk" Value="当前模式：角色行走" />
+	<string Key="btnClearGraph" Value="当前模式：清除(暂不可用)" />
+	<string Key="btnLoad" Value="当前模式：载入底图成功" />
 </kv>
