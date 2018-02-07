@@ -47,10 +47,10 @@ public :
 	
 protected: 
 
-	// 出边集合
+	// 出边集合 key是顶点的id
 	unordered_map< string , Edge* > m_EdgesOut ; 
 
-	// 入边集合
+	// 入边集合 key是顶点的id
 	unordered_map< string , Edge* > m_EdgesIn ;
 
 	// 节点表示的字符串
