@@ -175,8 +175,8 @@ public :
 
 protected: 
 
-	// 顶点的集合
-	unordered_map< string , Vertex* > m_Vertexes ; 
+	// 顶点的集合 key是id
+	unordered_map< string , Vertex* > m_Vertexes ; //
 
 	// 边的集合。Key的格式“顶点1name->顶点2name"
 	unordered_map< string , Edge* > m_Edges ;
