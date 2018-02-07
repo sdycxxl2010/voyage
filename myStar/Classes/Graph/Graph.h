@@ -34,16 +34,16 @@ public:
 
 public : 
 
-	const unordered_map< string , Edge* >& GetEdgesOut( ) const { return m_EdgesOut ; }
+	const unordered_map< string , Edge* >& GetEdgesOut( ) const { return m_EdgesOut ; }//获取节点的出边集合
 
-	const unordered_map< string , Edge* >& GetEdgesIn( ) const { return m_EdgesIn ; }
+	const unordered_map< string , Edge* >& GetEdgesIn( ) const { return m_EdgesIn ; }//获取节点的入边集合
 
-	const string& GetId( ) const { return m_strId ; }
+	const string& GetId( ) const { return m_strId ; }//获取节点的id
 
-	const string& GetText( ) const { return m_Text ; }
-	void SetText( const string& Text ) { m_Text = Text ; }
+	const string& GetText( ) const { return m_Text ; }//获取节点表识的字符串
+	void SetText( const string& Text ) { m_Text = Text ; }//设置节点表识的字符串
 
-	Graph * GetGraph( ) { return m_pGraph ; }
+	Graph * GetGraph( ) { return m_pGraph ; }//获取节点所属于的图
 	
 protected: 
 
@@ -121,12 +121,12 @@ public:
 
 public:
 
-	int GetWeight( ) const { return m_Weight ; }
-	void SetWeight( int var ) { m_Weight = var ; }
+	int GetWeight( ) const { return m_Weight ; }//获取边的权重
+	void SetWeight( int var ) { m_Weight = var ; }//设置边的权重
 
-	Vertex* GetStartVertex( ) const { return m_pStartVertex ; }
+	Vertex* GetStartVertex( ) const { return m_pStartVertex ; }//获取边的起点
 
-	Vertex* GetEndVertex( ) const { return m_pEndVertex ; }
+	Vertex* GetEndVertex( ) const { return m_pEndVertex ; }//获取边的终点
 
 protected:
 
