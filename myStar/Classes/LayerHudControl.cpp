@@ -19,9 +19,17 @@ LayerHudControl::~LayerHudControl( )
 bool LayerHudControl::init( )
 {
 
-	Widget * pUI = cocostudio::GUIReader::getInstance( )->widgetFromJsonFile( "ui/hud_control/hud_control.ExportJson" ) ;
-	this->addChild( pUI ) ; 
-	pUI->setAnchorPoint( Point( 0 , 1 ) ) ;
+	Widget * pUI = cocostudio::GUIReader::getInstance()->widgetFromJsonFile("ui/hud_control/hud_control.ExportJson");
+	this->addChild(pUI);
+	pUI->setAnchorPoint(Point(0, 1));
+	/*auto pUI2 = cocostudio::GUIReader::getInstance()->widgetFromJsonFile("ui/mainUI/mainUI.json");
+	if (pUI2!=nullptr)
+	{
+	log("++++++++pui2 is not null");
+	}
+	this->addChild(pUI2);
+	pUI2->setAnchorPoint(Point(0, 0));
+	pUI2->setPosition(Point(0, 0));*/
 
 	auto rect = Director::getInstance( )->getVisibleSize( ) ; 
 	//float y = rect.height - pUI->getSize( ).height ; 
