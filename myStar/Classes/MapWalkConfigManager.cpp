@@ -20,7 +20,7 @@ void MapWalkConfigManager::Load( const string& ConfigFileName , LayerMapWalk * p
 
 	doc.LoadFile( ConfigFileName.c_str( ) ) ; 
 
-	unordered_map< string , MapWalkVertex* > m_MwvList ; 
+	unordered_map< string , MapWalkVertex* > m_MwvList ; //存储真实节点的map
 
 	auto pElemRoot = doc.RootElement( ) ; 
 
