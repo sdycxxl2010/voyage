@@ -1,0 +1,60 @@
+﻿生成启动时间为 2018/2/11 15:38:07。
+     1>项目“D:\voyage\voyage\myStar\cocos2d\cocos\ui\proj.win32\libGUI.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\vs2013\VC\bin\CL.exe /c /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\ /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos\audio\include /I"D:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos\editor-support" /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\extensions /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos\platform\win32 /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos\platform\desktop /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\CCProtectedNode.cpp ..\CocosGUI.cpp ..\UIButton.cpp ..\UICheckBox.cpp ..\UIDeprecated.cpp ..\UIHBox.cpp ..\UIHelper.cpp ..\UIImageView.cpp ..\UILayout.cpp ..\UILayoutManager.cpp ..\UILayoutParameter.cpp ..\UIListView.cpp ..\UILoadingBar.cpp ..\UIPageView.cpp ..\UIRelativeBox.cpp ..\UIRichText.cpp ..\UIScrollView.cpp ..\UISlider.cpp ..\UIText.cpp ..\UITextAtlas.cpp ..\UITextBMFont.cpp ..\UITextField.cpp ..\UIVBox.cpp ..\UIWidget.cpp
+         CCProtectedNode.cpp
+         CocosGUI.cpp
+         UIButton.cpp
+         UICheckBox.cpp
+         UIDeprecated.cpp
+         UIHBox.cpp
+         UIHelper.cpp
+         UIImageView.cpp
+         UILayout.cpp
+         UILayoutManager.cpp
+         UILayoutParameter.cpp
+         UIListView.cpp
+         UILoadingBar.cpp
+         UIPageView.cpp
+         UIRelativeBox.cpp
+         UIRichText.cpp
+     1>d:\voyage\voyage\mystar\cocos2d\cocos\ui\uilayout.cpp(1764): warning C4715: “cocos2d::ui::Layout::isWidgetAncestorSupportLoopFocus”: 不是所有的控件路径都返回值
+         UIScrollView.cpp
+         UISlider.cpp
+         UIText.cpp
+         UITextAtlas.cpp
+         UITextBMFont.cpp
+         UITextField.cpp
+         UIVBox.cpp
+         UIWidget.cpp
+       Lib:
+         E:\vs2013\VC\bin\Lib.exe /OUT:"D:\voyage\voyage\myStar\proj.win32\Debug.win32\libGUI.lib" /NOLOGO Debug.win32\CCProtectedNode.obj
+         Debug.win32\CocosGUI.obj
+         Debug.win32\UIButton.obj
+         Debug.win32\UICheckBox.obj
+         Debug.win32\UIDeprecated.obj
+         Debug.win32\UIHBox.obj
+         Debug.win32\UIHelper.obj
+         Debug.win32\UIImageView.obj
+         Debug.win32\UILayout.obj
+         Debug.win32\UILayoutManager.obj
+         Debug.win32\UILayoutParameter.obj
+         Debug.win32\UIListView.obj
+         Debug.win32\UILoadingBar.obj
+         Debug.win32\UIPageView.obj
+         Debug.win32\UIRelativeBox.obj
+         Debug.win32\UIRichText.obj
+         Debug.win32\UIScrollView.obj
+         Debug.win32\UISlider.obj
+         Debug.win32\UIText.obj
+         Debug.win32\UITextAtlas.obj
+         Debug.win32\UITextBMFont.obj
+         Debug.win32\UITextField.obj
+         Debug.win32\UIVBox.obj
+         Debug.win32\UIWidget.obj
+         libGUI.vcxproj -> D:\voyage\voyage\myStar\proj.win32\Debug.win32\libGUI.lib
+     1>已完成生成项目“D:\voyage\voyage\myStar\cocos2d\cocos\ui\proj.win32\libGUI.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.84

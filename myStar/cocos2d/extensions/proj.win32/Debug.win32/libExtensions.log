@@ -1,0 +1,62 @@
+﻿生成启动时间为 2018/2/11 15:38:07。
+     1>项目“D:\voyage\voyage\myStar\cocos2d\extensions\proj.win32\libExtensions.vcxproj”在节点 6 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\vs2013\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\ /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos\audio\include /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\unzip /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\curl\include\win32 /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\sqlite3\include /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\libwebsockets\win32\include /I"D:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /I..\ /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos\platform\win32 /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\cocos\platform\desktop /ID:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\voyage\voyage\myStar\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _LIB /D COCOS2D_DEBUG=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt "..\assets-manager\AssetsManager.cpp" ..\GUI\CCControlExtension\CCControl.cpp ..\GUI\CCControlExtension\CCControlButton.cpp ..\GUI\CCControlExtension\CCControlColourPicker.cpp ..\GUI\CCControlExtension\CCControlHuePicker.cpp ..\GUI\CCControlExtension\CCControlPotentiometer.cpp ..\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp ..\GUI\CCControlExtension\CCControlSlider.cpp ..\GUI\CCControlExtension\CCControlStepper.cpp ..\GUI\CCControlExtension\CCControlSwitch.cpp ..\GUI\CCControlExtension\CCControlUtils.cpp ..\GUI\CCControlExtension\CCInvocation.cpp ..\GUI\CCControlExtension\CCScale9Sprite.cpp ..\GUI\CCEditBox\CCEditBox.cpp ..\GUI\CCEditBox\CCEditBoxImplWin.cpp ..\GUI\CCScrollView\CCScrollView.cpp ..\GUI\CCScrollView\CCTableView.cpp ..\GUI\CCScrollView\CCTableViewCell.cpp "..\physics-nodes\CCPhysicsDebugNode.cpp" "..\physics-nodes\CCPhysicsSprite.cpp" Win32InputBox.cpp
+         AssetsManager.cpp
+         CCControl.cpp
+         CCControlButton.cpp
+         CCControlColourPicker.cpp
+         CCControlHuePicker.cpp
+         CCControlPotentiometer.cpp
+         CCControlSaturationBrightnessPicker.cpp
+         CCControlSlider.cpp
+     1>d:\voyage\voyage\mystar\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\assets-manager\AssetsManager.cpp)
+         CCControlStepper.cpp
+         CCControlSwitch.cpp
+         CCControlUtils.cpp
+         CCInvocation.cpp
+         CCScale9Sprite.cpp
+         CCEditBox.cpp
+         CCEditBoxImplWin.cpp
+         CCScrollView.cpp
+         CCTableView.cpp
+         CCTableViewCell.cpp
+         CCPhysicsDebugNode.cpp
+         CCPhysicsSprite.cpp
+         Win32InputBox.cpp
+     1>d:\voyage\voyage\mystar\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\GUI\CCEditBox\CCEditBoxImplWin.cpp)
+     1>..\GUI\CCEditBox\CCEditBoxImplWin.cpp(171): warning C4996: 'cocos2d::cc_utf8_strlen': 被声明为已否决
+                 d:\voyage\voyage\mystar\cocos2d\cocos\base/ccUTF8.h(169) : 参见“cocos2d::cc_utf8_strlen”的声明
+     1>d:\voyage\voyage\mystar\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 浮点常量算术溢出 (..\physics-nodes\CCPhysicsDebugNode.cpp)
+     1>d:\voyage\voyage\mystar\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 浮点常量算术溢出 (..\physics-nodes\CCPhysicsDebugNode.cpp)
+     1>d:\voyage\voyage\mystar\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 浮点常量算术溢出 (..\physics-nodes\CCPhysicsSprite.cpp)
+     1>d:\voyage\voyage\mystar\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 浮点常量算术溢出 (..\physics-nodes\CCPhysicsSprite.cpp)
+     1>d:\voyage\voyage\mystar\cocos2d\cocos\base/ccUtils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (Win32InputBox.cpp)
+       Lib:
+         E:\vs2013\VC\bin\Lib.exe /OUT:"D:\voyage\voyage\myStar\proj.win32\Debug.win32\libExtensions.lib" /NOLOGO Debug.win32\AssetsManager.obj
+         Debug.win32\CCControl.obj
+         Debug.win32\CCControlButton.obj
+         Debug.win32\CCControlColourPicker.obj
+         Debug.win32\CCControlHuePicker.obj
+         Debug.win32\CCControlPotentiometer.obj
+         Debug.win32\CCControlSaturationBrightnessPicker.obj
+         Debug.win32\CCControlSlider.obj
+         Debug.win32\CCControlStepper.obj
+         Debug.win32\CCControlSwitch.obj
+         Debug.win32\CCControlUtils.obj
+         Debug.win32\CCInvocation.obj
+         Debug.win32\CCScale9Sprite.obj
+         Debug.win32\CCEditBox.obj
+         Debug.win32\CCEditBoxImplWin.obj
+         Debug.win32\CCScrollView.obj
+         Debug.win32\CCTableView.obj
+         Debug.win32\CCTableViewCell.obj
+         Debug.win32\CCPhysicsDebugNode.obj
+         Debug.win32\CCPhysicsSprite.obj
+         Debug.win32\Win32InputBox.obj
+         libExtensions.vcxproj -> D:\voyage\voyage\myStar\proj.win32\Debug.win32\libExtensions.lib
+     1>已完成生成项目“D:\voyage\voyage\myStar\cocos2d\extensions\proj.win32\libExtensions.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.64
